@@ -7,21 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86777BE3D85FE34BB6C6A68F /* Pods_Stock_Management.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E7937B35ED031FBAB34D70 /* Pods_Stock_Management.framework */; };
+		C20350832244C46F00ECECC4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20350822244C46F00ECECC4 /* BaseViewController.swift */; };
+		C20350862244D0DF00ECECC4 /* StockManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20350852244D0DF00ECECC4 /* StockManagement.swift */; };
+		C20350882244D0E900ECECC4 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20350872244D0E900ECECC4 /* Products.swift */; };
+		C203508A2244D0EE00ECECC4 /* Customers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20350892244D0EE00ECECC4 /* Customers.swift */; };
+		C244ADD122436E370071AA01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C244ADD022436E370071AA01 /* GoogleService-Info.plist */; };
+		C244ADD322437DA70071AA01 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C244ADD222437DA70071AA01 /* LogInViewController.swift */; };
+		C244ADD522437DBF0071AA01 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C244ADD422437DBF0071AA01 /* RegisterViewController.swift */; };
+		C244ADD722437DCF0071AA01 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C244ADD622437DCF0071AA01 /* MainPageViewController.swift */; };
+		C244ADD922437E7C0071AA01 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C244ADD822437E7C0071AA01 /* FirstPageViewController.swift */; };
+		C252D6B522494CC100125E9D /* AddExistProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C252D6B422494CC100125E9D /* AddExistProductViewController.swift */; };
+		C26371D822438D370031240C /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26371D722438D370031240C /* ForgotPasswordViewController.swift */; };
+		C26371DD2243B0850031240C /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26371DB2243B0850031240C /* ProductsTableViewCell.swift */; };
+		C26371DE2243B0850031240C /* ProductsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C26371DC2243B0850031240C /* ProductsTableViewCell.xib */; };
+		C26371E32243C61F0031240C /* CustomersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26371E12243C61F0031240C /* CustomersTableViewCell.swift */; };
+		C26371E42243C61F0031240C /* CustomersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C26371E22243C61F0031240C /* CustomersTableViewCell.xib */; };
+		C26371E82243D6FE0031240C /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26371E72243D6FE0031240C /* ProductsViewController.swift */; };
+		C26371EA2243D7140031240C /* AddProductsToStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26371E92243D7140031240C /* AddProductsToStockViewController.swift */; };
+		C26371ED2243D7400031240C /* CustomersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26371EC2243D7400031240C /* CustomersViewController.swift */; };
+		C26371EF2243D7690031240C /* AddCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26371EE2243D7690031240C /* AddCustomerViewController.swift */; };
+		C26371F42243D7F30031240C /* ChooseCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26371F32243D7F30031240C /* ChooseCustomerViewController.swift */; };
+		C26371F62243D8020031240C /* ChooseProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26371F52243D8020031240C /* ChooseProductViewController.swift */; };
+		C26371F82243D8270031240C /* MakeSaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26371F72243D8270031240C /* MakeSaleViewController.swift */; };
+		C26372002243D8CE0031240C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26371FF2243D8CE0031240C /* MapViewController.swift */; };
 		C2B5C56B22435F580046F19B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B5C56A22435F580046F19B /* AppDelegate.swift */; };
-		C2B5C56D22435F580046F19B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B5C56C22435F580046F19B /* ViewController.swift */; };
 		C2B5C57022435F580046F19B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B5C56E22435F580046F19B /* Main.storyboard */; };
-		C2B5C57222435F590046F19B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B5C57122435F590046F19B /* Assets.xcassets */; };
 		C2B5C57522435F590046F19B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B5C57322435F590046F19B /* LaunchScreen.storyboard */; };
+		C2DD25092248A25E00DAA3B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DD25082248A25E00DAA3B9 /* Assets.xcassets */; };
+		C2F61712224BAE3800C2E760 /* ToCustomerMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F61711224BAE3800C2E760 /* ToCustomerMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35E4AB3795080768EEAAFAEA /* Pods-Stock Management.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock Management.release.xcconfig"; path = "Target Support Files/Pods-Stock Management/Pods-Stock Management.release.xcconfig"; sourceTree = "<group>"; };
+		4BAC671ED2B61861A6F86008 /* Pods-Stock Management.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock Management.debug.xcconfig"; path = "Target Support Files/Pods-Stock Management/Pods-Stock Management.debug.xcconfig"; sourceTree = "<group>"; };
+		84E7937B35ED031FBAB34D70 /* Pods_Stock_Management.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stock_Management.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20350822244C46F00ECECC4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C20350852244D0DF00ECECC4 /* StockManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockManagement.swift; sourceTree = "<group>"; };
+		C20350872244D0E900ECECC4 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		C20350892244D0EE00ECECC4 /* Customers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customers.swift; sourceTree = "<group>"; };
+		C244ADD022436E370071AA01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C244ADD222437DA70071AA01 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		C244ADD422437DBF0071AA01 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C244ADD622437DCF0071AA01 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		C244ADD822437E7C0071AA01 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		C252D6B422494CC100125E9D /* AddExistProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExistProductViewController.swift; sourceTree = "<group>"; };
+		C26371D722438D370031240C /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		C26371DB2243B0850031240C /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		C26371DC2243B0850031240C /* ProductsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsTableViewCell.xib; sourceTree = "<group>"; };
+		C26371E12243C61F0031240C /* CustomersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersTableViewCell.swift; sourceTree = "<group>"; };
+		C26371E22243C61F0031240C /* CustomersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomersTableViewCell.xib; sourceTree = "<group>"; };
+		C26371E72243D6FE0031240C /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		C26371E92243D7140031240C /* AddProductsToStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductsToStockViewController.swift; sourceTree = "<group>"; };
+		C26371EC2243D7400031240C /* CustomersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersViewController.swift; sourceTree = "<group>"; };
+		C26371EE2243D7690031240C /* AddCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomerViewController.swift; sourceTree = "<group>"; };
+		C26371F32243D7F30031240C /* ChooseCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCustomerViewController.swift; sourceTree = "<group>"; };
+		C26371F52243D8020031240C /* ChooseProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseProductViewController.swift; sourceTree = "<group>"; };
+		C26371F72243D8270031240C /* MakeSaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeSaleViewController.swift; sourceTree = "<group>"; };
+		C26371FF2243D8CE0031240C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C2B5C56722435F580046F19B /* Stock Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stock Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B5C56A22435F580046F19B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2B5C56C22435F580046F19B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2B5C56F22435F580046F19B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C2B5C57122435F590046F19B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2B5C57422435F590046F19B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2B5C57622435F590046F19B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DD25082248A25E00DAA3B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2F61711224BAE3800C2E760 /* ToCustomerMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToCustomerMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +79,127 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86777BE3D85FE34BB6C6A68F /* Pods_Stock_Management.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C20350842244D0CB00ECECC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C20350852244D0DF00ECECC4 /* StockManagement.swift */,
+				C20350872244D0E900ECECC4 /* Products.swift */,
+				C20350892244D0EE00ECECC4 /* Customers.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C26371D92243B05F0031240C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C26371E52243D6760031240C /* Login Controllers */,
+				C26372012243D8E40031240C /* Main Page Controller */,
+				C26371E62243D6E20031240C /* Products Controllers */,
+				C26371EB2243D72C0031240C /* Customers Controllers */,
+				C26371F22243D7D70031240C /* Sale Controllers */,
+				C26371FE2243D8A50031240C /* Map Controller */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C26371DA2243B0660031240C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C26371E02243C60E0031240C /* Customers */,
+				C26371DF2243C6030031240C /* Products */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C26371DF2243C6030031240C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C26371DB2243B0850031240C /* ProductsTableViewCell.swift */,
+				C26371DC2243B0850031240C /* ProductsTableViewCell.xib */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		C26371E02243C60E0031240C /* Customers */ = {
+			isa = PBXGroup;
+			children = (
+				C26371E12243C61F0031240C /* CustomersTableViewCell.swift */,
+				C26371E22243C61F0031240C /* CustomersTableViewCell.xib */,
+			);
+			path = Customers;
+			sourceTree = "<group>";
+		};
+		C26371E52243D6760031240C /* Login Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C26371D722438D370031240C /* ForgotPasswordViewController.swift */,
+				C244ADD422437DBF0071AA01 /* RegisterViewController.swift */,
+				C244ADD222437DA70071AA01 /* LogInViewController.swift */,
+				C244ADD822437E7C0071AA01 /* FirstPageViewController.swift */,
+			);
+			path = "Login Controllers";
+			sourceTree = "<group>";
+		};
+		C26371E62243D6E20031240C /* Products Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C26371E72243D6FE0031240C /* ProductsViewController.swift */,
+				C26371E92243D7140031240C /* AddProductsToStockViewController.swift */,
+				C252D6B422494CC100125E9D /* AddExistProductViewController.swift */,
+			);
+			path = "Products Controllers";
+			sourceTree = "<group>";
+		};
+		C26371EB2243D72C0031240C /* Customers Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C26371EC2243D7400031240C /* CustomersViewController.swift */,
+				C26371EE2243D7690031240C /* AddCustomerViewController.swift */,
+				C2F61711224BAE3800C2E760 /* ToCustomerMapViewController.swift */,
+			);
+			path = "Customers Controllers";
+			sourceTree = "<group>";
+		};
+		C26371F22243D7D70031240C /* Sale Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C26371F32243D7F30031240C /* ChooseCustomerViewController.swift */,
+				C26371F52243D8020031240C /* ChooseProductViewController.swift */,
+				C26371F72243D8270031240C /* MakeSaleViewController.swift */,
+			);
+			path = "Sale Controllers";
+			sourceTree = "<group>";
+		};
+		C26371FE2243D8A50031240C /* Map Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C26371FF2243D8CE0031240C /* MapViewController.swift */,
+			);
+			path = "Map Controller";
+			sourceTree = "<group>";
+		};
+		C26372012243D8E40031240C /* Main Page Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C244ADD622437DCF0071AA01 /* MainPageViewController.swift */,
+			);
+			path = "Main Page Controller";
+			sourceTree = "<group>";
+		};
 		C2B5C55E22435F580046F19B = {
 			isa = PBXGroup;
 			children = (
 				C2B5C56922435F580046F19B /* Stock Management */,
 				C2B5C56822435F580046F19B /* Products */,
+				F7959CE6D4776E9E3B8D0DF8 /* Pods */,
+				DC821BFDA101FD2A636478B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +214,35 @@
 		C2B5C56922435F580046F19B /* Stock Management */ = {
 			isa = PBXGroup;
 			children = (
+				C20350842244D0CB00ECECC4 /* Models */,
+				C26371DA2243B0660031240C /* Views */,
+				C26371D92243B05F0031240C /* Controllers */,
 				C2B5C56A22435F580046F19B /* AppDelegate.swift */,
-				C2B5C56C22435F580046F19B /* ViewController.swift */,
 				C2B5C56E22435F580046F19B /* Main.storyboard */,
-				C2B5C57122435F590046F19B /* Assets.xcassets */,
+				C20350822244C46F00ECECC4 /* BaseViewController.swift */,
 				C2B5C57322435F590046F19B /* LaunchScreen.storyboard */,
 				C2B5C57622435F590046F19B /* Info.plist */,
+				C2DD25082248A25E00DAA3B9 /* Assets.xcassets */,
+				C244ADD022436E370071AA01 /* GoogleService-Info.plist */,
 			);
 			path = "Stock Management";
+			sourceTree = "<group>";
+		};
+		DC821BFDA101FD2A636478B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E7937B35ED031FBAB34D70 /* Pods_Stock_Management.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7959CE6D4776E9E3B8D0DF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BAC671ED2B61861A6F86008 /* Pods-Stock Management.debug.xcconfig */,
+				35E4AB3795080768EEAAFAEA /* Pods-Stock Management.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2B5C57922435F590046F19B /* Build configuration list for PBXNativeTarget "Stock Management" */;
 			buildPhases = (
+				55C4646EF09C712C9D012D79 /* [CP] Check Pods Manifest.lock */,
 				C2B5C56322435F580046F19B /* Sources */,
 				C2B5C56422435F580046F19B /* Frameworks */,
 				C2B5C56522435F580046F19B /* Resources */,
+				F0BA99E98D71526F97FB13AA /* [CP] Embed Pods Frameworks */,
+				4595FEC2BDA64F7E5B54D049 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,20 +307,128 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2B5C57522435F590046F19B /* LaunchScreen.storyboard in Resources */,
-				C2B5C57222435F590046F19B /* Assets.xcassets in Resources */,
+				C244ADD122436E370071AA01 /* GoogleService-Info.plist in Resources */,
+				C26371DE2243B0850031240C /* ProductsTableViewCell.xib in Resources */,
+				C26371E42243C61F0031240C /* CustomersTableViewCell.xib in Resources */,
+				C2DD25092248A25E00DAA3B9 /* Assets.xcassets in Resources */,
 				C2B5C57022435F580046F19B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4595FEC2BDA64F7E5B54D049 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stock Management/Pods-Stock Management-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stock Management/Pods-Stock Management-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55C4646EF09C712C9D012D79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stock Management-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0BA99E98D71526F97FB13AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stock Management/Pods-Stock Management-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stock Management/Pods-Stock Management-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2B5C56322435F580046F19B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2B5C56D22435F580046F19B /* ViewController.swift in Sources */,
+				C2F61712224BAE3800C2E760 /* ToCustomerMapViewController.swift in Sources */,
+				C20350882244D0E900ECECC4 /* Products.swift in Sources */,
+				C26371EF2243D7690031240C /* AddCustomerViewController.swift in Sources */,
+				C26371F62243D8020031240C /* ChooseProductViewController.swift in Sources */,
+				C203508A2244D0EE00ECECC4 /* Customers.swift in Sources */,
+				C244ADD722437DCF0071AA01 /* MainPageViewController.swift in Sources */,
+				C26371ED2243D7400031240C /* CustomersViewController.swift in Sources */,
+				C20350832244C46F00ECECC4 /* BaseViewController.swift in Sources */,
 				C2B5C56B22435F580046F19B /* AppDelegate.swift in Sources */,
+				C26371DD2243B0850031240C /* ProductsTableViewCell.swift in Sources */,
+				C26372002243D8CE0031240C /* MapViewController.swift in Sources */,
+				C26371D822438D370031240C /* ForgotPasswordViewController.swift in Sources */,
+				C244ADD922437E7C0071AA01 /* FirstPageViewController.swift in Sources */,
+				C244ADD322437DA70071AA01 /* LogInViewController.swift in Sources */,
+				C26371F82243D8270031240C /* MakeSaleViewController.swift in Sources */,
+				C26371F42243D7F30031240C /* ChooseCustomerViewController.swift in Sources */,
+				C252D6B522494CC100125E9D /* AddExistProductViewController.swift in Sources */,
+				C26371E82243D6FE0031240C /* ProductsViewController.swift in Sources */,
+				C244ADD522437DBF0071AA01 /* RegisterViewController.swift in Sources */,
+				C26371EA2243D7140031240C /* AddProductsToStockViewController.swift in Sources */,
+				C20350862244D0DF00ECECC4 /* StockManagement.swift in Sources */,
+				C26371E32243C61F0031240C /* CustomersTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +572,7 @@
 		};
 		C2B5C57A22435F590046F19B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BAC671ED2B61861A6F86008 /* Pods-Stock Management.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +591,7 @@
 		};
 		C2B5C57B22435F590046F19B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E4AB3795080768EEAAFAEA /* Pods-Stock Management.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
