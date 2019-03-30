@@ -7,8 +7,7 @@ Stock Management with Firebase
 ---------------------------------
 ![5](https://user-images.githubusercontent.com/24847947/55239933-c358a400-5248-11e9-9dfb-a4d24c8ac24e.png)![6](https://user-images.githubusercontent.com/24847947/55239934-c3f13a80-5248-11e9-9f0b-637edd507ab5.png)
 ---------------------------------
-![7](https://user-images.githubusercontent.com/24847947/55239937-c3f13a80-5248-11e9-9a7f-453f17ba7f41.png)![8](https://user-images.githubusercontent.com/24847947/55239938-c3f13a80-5248-11e9-91b1-954eabb51dbc.png)
+![7](https://user-images.githubusercontent.com/24847947/55239937-c3f13a80-5248-11e9-9a7f-453f17ba7f41.png)! ![Simulator Screen Shot - iPhone Xs - 2019-03-31 at 00 38 06](https://user-images.githubusercontent.com/24847947/55282039-64c91e00-534d-11e9-885b-f2b9d2a9d7de.png)
 ---------------------------------
-![9](https://user-images.githubusercontent.com/24847947/55239940-c489d100-5248-11e9-829f-6dd3768813c0.png)
-![10](https://user-images.githubusercontent.com/24847947/55239941-c489d100-5248-11e9-8df6-5c59889dd378.png)
+![Simulator Screen Shot - iPhone Xs - 2019-03-31 at 00 38 15](https://user-images.githubusercontent.com/24847947/55282040-64c91e00-534d-11e9-82c0-9e315fb8111e.png)
 
