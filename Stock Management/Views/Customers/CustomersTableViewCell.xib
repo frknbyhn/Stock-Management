@@ -26,7 +26,7 @@
                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bH2-Iz-aDb">
                         <rect key="frame" x="117" y="185" width="140" height="30"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <state key="normal" title="MÜŞTERİYE GİT">
+                        <state key="normal" title="Go To Customer">
                             <color key="titleColor" red="0.99605995416641235" green="0.43789476156234741" blue="0.26771676540374756" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </state>
                     </button>
